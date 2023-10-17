@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre a empresa</title>
+</head>
+<body style="background-color: #ffffff;">
+    <div style="position: fixed; width: 100%; top: 0px; height: 105px;">
+        <header style="background-color: #ffffff;">
+          <img src="logo.svg" id="LogoHeader">
+          <div id="direitoheader">
+            <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Buscar" autocomplete="off">
+            
+            <ol id='list'>
+              <a href="materiaisultilizados.html" style="text-decoration: none;">
+                <li class="animals">Materiais</li>
+              </a>
+                <li class="animals">Sensor</li>
+                <li class="animals">Floresta</li>
+                <li class="animals">Notícia</li>
+                <li class="animals">Fogo</li>
+                <li class="animals">Incêndio</li>
+                <li class="animals">Preço</li>
+                <li class="animals">Produto</li>
+                <li class="animals">Lugar</li>
+                <li class="animals">Como instalar</li>
+                <li class="animals">Sobre a empresa</li>
+            </ol>
+          <a href="#"><img src="carrinhocompras.png" id="carrinhocompras"></a>
+         <a href="#"><img src="usuario.png" id="carrinhocompras"></a>
+        </div>
+        </header>
+        <nav>
+          <a href="index.html" class="linknav">Página inicial</a>
+          <a href="#" class="linknav"   onmouseenter="MenuHove()" >Opções</a>
+        </nav>
+      </div>
+      
+        <div id="MenuEscondido" onmouseleave="MenuHoveSaiu()">
+          <div id="DivLinkMenuEscondio">
+            
+            <a href="#Contatos" class="LinkMenuEscondio" onclick="contatosblack()">Contatos</a>
+            <a href="" class="LinkMenuEscondio">Sobre nós</a>
+            <a href="" class="LinkMenuEscondio">Perguntas frequentes</a>
+          </div>
+         </div>
+
+        <div style="display: flex; justify-content: center; width: 100%; margin-top: 110px;">
+        <img src="sobreaempresacorpo.svg">
+        </div>
+        
+
+
+         <footer style="background-color: #36868a; color: white; padding: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+          
+            <div id="divContatos" style="display: flex; flex-direction: column; text-align: start; align-items: start; color: white; gap: 7px;">
+              <p id="Contatos">Entre em contato</p>
+          
+              <div class="divinconsredesociais">
+             <img src="o-email.png" class="iconsfooteresquerdo">
+              <a href="" class="linkfooter">sensorycloud@gmail.com</a>
+            </div>
+            <div class="divinconsredesociais">
+              <img src="instagram.png" class="iconsfooteresquerdo">
+              <a href="" class="linkfooter">@sensory_cloud</a>
+            </div>
+            <div class="divinconsredesociais">
+              <img src="whatsapp.png" class="iconsfooteresquerdo">
+              <a href="" class="linkfooter">+55 81 1310-2632</a>
+            </div>
+            </div>
+          
+            <div style="gap: 8px; display: flex; flex-direction: column; align-items: end;">
+              <p style="text-align: end;">Parcerias</p>
+              <img src="parceiros footer.svg" style="width: 400px;">
+            </div>
+            </div>
+            <p style="color: #6bb0b4; text-align: center;">feito em 2023 por grupo "te amo sexta-feira"</p>
+          </footer>
+          <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+
+          <script src="main.js"></script>
+</body>
+</html>

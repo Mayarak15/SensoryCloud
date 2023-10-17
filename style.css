@@ -1,0 +1,217 @@
+*{
+    scroll-behavior: smooth;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #012f31;
+}
+header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012f31;
+    height: 50px;
+}
+#LogoHeader{
+    width: 80px;
+}
+#carrinhocompras{
+    width: 30px;
+}
+#carrinhocompras:hover{
+    background-color: #6db9bd;
+    padding: 3px;
+    border-radius: 20px;
+}
+#direitoheader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.linkpesquisa{
+    text-decoration: none;
+    color: white;
+}
+#searchbar{
+    width: 150px;
+    padding: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: #014946;
+    outline: none;
+  }
+  #searchbar::placeholder{
+    color: rgb(161, 161, 161);
+  }
+  #list{
+    list-style-type: none;
+    margin-top: 10px;
+    right: 2%;
+    position: absolute;
+    top: 50px;
+    overflow-y: scroll;
+  }
+  
+  .animals{
+    right: 2%;
+    text-align: center;
+    margin: 5px 0;
+    color: white;
+    width: 17vw;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 0.8em;
+    overflow: hidden;
+    display: none;
+    background-color: #ef913e;
+  }
+  
+  .animals:hover{
+    background-color: #fc3d21;
+    cursor: pointer;
+  }
+nav{
+    background: linear-gradient(90deg, rgba(109,176,180,1) 0%, rgba(54,134,138,1) 58%, rgba(67,54,138,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 40px;
+}
+.linknav{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.linknav:hover{
+    color: #ef913e;
+}
+.Cardsinicial{
+    width: 150px;
+    height: 200px;
+    background-color: orange; 
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+#Cardazul{
+    background-color: #36868a;
+    border: 3px solid #a0e4e8;
+    animation: .5s;
+}
+#Cardazul:hover{
+    width: 155px;
+    height: 205px;
+    box-shadow: 2px 2px 10px #36868a;
+    cursor: pointer;
+}
+#Cardlaranja{
+    background-color: #ef913e;
+    border: 3px solid #ffd3ac;
+}
+#Cardlaranja:hover{
+    width: 155px;
+    height: 205px;
+    box-shadow: 2px 2px 10px #ef913e;
+    cursor: pointer;
+}
+#Cardvermelho{
+    background-color: #fc3d21;
+    border: 3px solid #fab3a8;
+}
+#Cardvermelho:hover{
+    width: 155px;
+    height: 205px;
+    box-shadow: 2px 2px 10px #fc3d21;
+    cursor: pointer;
+}
+#Cardverde{
+    
+    background-color: #aad400;
+    border: 3px solid #ecff9c;
+}
+#Cardverde:hover{
+    width: 155px;
+    height: 205px;
+    box-shadow: 2px 2px 10px #aad400;
+    cursor: pointer;
+}
+.linkfooter{
+    color: white;
+    text-decoration: none;
+}
+.linkfooter:hover{
+    color: #fc3d21;
+}
+.imgCard{
+    border-radius: 5px;
+    width: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.iconsfooteresquerdo{
+    width: 20px;
+}
+.divinconsredesociais{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+#btnsaibamaisnoticias{
+    background-color: #ef913e; 
+    color: white; 
+    border: 2px solid #f1dbc6;
+     border-radius: 20px; 
+     text-decoration: none; 
+     padding: 10px;
+     transition: .5s;
+}
+#btnsaibamaisnoticias:hover{
+    background-color: #fc3d21;
+}
+#DivLinkMenuEscondio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  #MenuEscondido{
+    background-color: #ef913e;
+    display: none;
+    justify-items: center; 
+    position: fixed;
+    height: auto;
+    top: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+  .LinkMenuEscondio{
+    text-decoration: none;
+    color: #fee5bd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    border: 2px solid #fee5bd;
+    border-radius: 15px;
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+   }
+  .LinkMenuEscondio:hover{
+    background-color: white;
+    color: #ef913e;
+  }

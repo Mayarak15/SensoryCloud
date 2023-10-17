@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>SensoryCloud</title>
+</head>
+
+<body>
+  <div style="position: sticky; width: 100%; top: 0px; height: 105px;">
+    <header>
+
+      <img src="logo.svg" id="LogoHeader">
+
+      <div id="direitoheader">
+        <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Buscar..."
+          autocomplete="off">
+
+        <ol id='list'>
+          <a href="materiaisultilizados.html" style="text-decoration: none;">
+            <li class="animals">Materiais</li>
+          </a>
+          <li class="animals">Sensor</li>
+          <li class="animals"><a href="saibamais.html" class="linkpesquisa">Floresta</a></li>
+          <li class="animals">Notícia</li>
+          <li class="animals">Fogo</li>
+          <li class="animals">Incêndio</li>
+          <li class="animals">Preço</li>
+          <li class="animals">Produto</li>
+          <li class="animals">Lugar</li>
+          <li class="animals"><a href="comoinstalar.html" class="linkpesquisa">Como instalar</a></li>
+          <li class="animals">Sobre a empresa</li>
+        </ol>
+        <a href="#"><img src="carrinhocompras.png" id="carrinhocompras"></a>
+        <a href="login.html"><img src="usuario.png" id="carrinhocompras"></a>
+      </div>
+    </header>
+    <nav>
+      <a href="index.html" class="linknav">Página inicial</a>
+      <a href="#" class="linknav" onmouseenter="MenuHove()">Opções</a>
+    </nav>
+  </div>
+
+  <div id="MenuEscondido" onmouseleave="MenuHoveSaiu()">
+    <div id="DivLinkMenuEscondio">
+
+      <a href="#Contatos" class="LinkMenuEscondio" onclick="contatosblack()">Contatos</a>
+      <a href="sobreaempresa.html" class="LinkMenuEscondio">Sobre nós</a>
+      <a href="" class="LinkMenuEscondio">Perguntas frequentes</a>
+    </div>
+  </div>
+
+  <div style=" width: 100%; display: flex; justify-content: center; align-items: center; padding-top: 30px;">
+    <img src="slide.svg" style="width: 95%;">
+  </div>
+
+
+  <div
+    style=" background-color: #002425; padding-top: 30px; padding-bottom: 30px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 80px;">
+    <p style="color: #36868a; text-transform: uppercase;">
+      conheça mais sobre nosso produto
+    </p>
+    <div style="display:flex; justify-content:space-around; width: 100%; align-items: center;">
+
+      <div class="Cardsinicial" id="Cardlaranja">
+        <a href="comofunciona.html" style="text-decoration: none; color: white;">
+
+          <img src="comofunciona.svg" class="imgCard">
+          como funciona
+        </a>
+      </div>
+
+      <div class="Cardsinicial" id="Cardazul">
+        <a href="materiaisultilizados.html" style="text-decoration: none; color: white;">
+          <img src="materiaisultilizados.svg" class="imgCard">
+          materiais ultilizados
+        </a>
+      </div>
+
+      <div class="Cardsinicial" id="Cardvermelho">
+        <a href="comoinstalar.html" style="text-decoration: none; color: white;">
+          <img src="cardinstalar.svg" class="imgCard">
+          como instalar
+        </a>
+      </div>
+      <div class="Cardsinicial" id="Cardverde">
+        <a href="sobreaempresa.html" style="text-decoration: none; color: white;">
+          <img src="sobreaempresa.svg" class="imgCard">
+          sobre a empresa
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div
+    style="width: 100%; display: flex; align-items: center; justify-content: center; margin-top: 80px; margin-bottom: 30px;">
+
+    <div style=" display: flex; flex-direction: column; align-items: center; width: 80%; gap: 20px;">
+
+      <h1 style="color: #36868a; text-transform: uppercase; font-size: 25px; text-align: center;">saiba diferenciar
+        incêndios florestais de queimas</h1>
+
+      <div id="diiiiiv">
+
+        <h2 style="font-size: 18px; color:white;">Qual a diferença entre incêndio florestal e queima?</h2>
+        <p style="text-align: justify; color:white; font-size: 18px">
+          O incêndio florestal é caracterizado pelo fogo sem controle que avança sobre qualquer vegetação, podendo ser
+          iniciado pelo homem (intencional ou acidental) ou por fonte natural (raio).
+        </p>
+      </div>
+      <div style="display: grid; grid-template-columns: 55% 40%; gap: 10px;">
+        <p style="text-align: justify; color:white; font-size: 18px">
+          Já a queima é o uso do fogo, seja para manejo de áreas de agricultura e pécuaria ou com objetivos de
+          conservação ambiental, como redução do combustívelflorestal (prevenção de incêndios), manejo da paisagem e
+          presevação dos ecossistemas depentes do fogo.
+        </p>
+        <img src="https://www.infoescola.com/wp-content/uploads/2017/05/incendio-florestal-48032821.jpg"
+          style="width: 100%; border-radius: 10px;">
+
+      </div>
+      <a href="saibamais.html" id="btnsaibamaisnoticias">Saiba mais</a>
+
+    </div>
+  </div>
+
+  
+
+
+  <footer style="background-color: #36868a; color: white; padding: 20px;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+
+      <div id="divContatos"
+        style="display: flex; flex-direction: column; text-align: start; align-items: start; color: white; gap: 7px;">
+        <p id="Contatos">Entre em contato</p>
+
+        <div class="divinconsredesociais">
+          <img src="o-email.png" class="iconsfooteresquerdo">
+          <a href="" class="linkfooter">sensorycloud@gmail.com</a>
+        </div>
+        <div class="divinconsredesociais">
+          <img src="instagram.png" class="iconsfooteresquerdo">
+          <a href="" class="linkfooter">@sensory_cloud</a>
+        </div>
+        <div class="divinconsredesociais">
+          <img src="whatsapp.png" class="iconsfooteresquerdo">
+          <a href="" class="linkfooter">+55 81 1310-2632</a>
+        </div>
+      </div>
+
+      <div style="gap: 8px; display: flex; flex-direction: column; align-items: end;">
+        <p style="text-align: end;">Parcerias</p>
+        <img src="parceiros footer.svg" style="width: 400px;">
+      </div>
+    </div>
+    <p style="color: #6bb0b4; text-align: center;">feito em 2023 por grupo "te amo sexta-feira"</p>
+  </footer>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>
