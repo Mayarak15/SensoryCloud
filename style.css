@@ -54,7 +54,12 @@ header{
     top: 50px;
     overflow-y: scroll;
   }
-  
+  #anunciosprincipal{
+    overflow-y: scroll;
+  }
+  #anunciosprincipal img{
+    width: 300px;
+  }
   .animals{
     right: 2%;
     text-align: center;
