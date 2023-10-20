@@ -12,6 +12,7 @@ body{
      width: 100%;
       top: 0px;
        height: 105px;
+       z-index: 1;
 }
 header{
     padding: 5px;
@@ -82,7 +83,7 @@ header{
     border-radius: 20px;
 }
   #anunciosprincipal img{
-   height: 200px;
+   height: 240px;
   }
  
   .animals{
@@ -197,17 +198,37 @@ nav{
     align-items: start;
     gap: 8px;
 }
-#btnsaibamaisnoticias{
+#btnsaibamaisnoticias, .btnslogin{
     background-color: #ef913e; 
-    color: white; 
     border: 2px solid #f1dbc6;
+    color: white;
+    text-decoration: none;
      border-radius: 20px; 
-     text-decoration: none; 
      padding: 10px;
      transition: .5s;
+     width: 120px;
+     display: flex;
+     align-items: center;
+     justify-content:center;
 }
-#btnsaibamaisnoticias:hover{
+.divnoticiaprincipal{
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 80px; 
+    margin-bottom: 30px;
+}
+.botaosdelogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+}
+#btnsaibamaisnoticias:hover, .btnslogin:hover{
     background-color: #fc3d21;
+    cursor: pointer;
 }
 #DivLinkMenuEscondio{
     display: flex;
@@ -242,3 +263,10 @@ nav{
     background-color: white;
     color: #ef913e;
   }
+  .iconsLogin{
+    width: 35px;
+  }
+  .iconsLogin:hover{
+    cursor: pointer;
+  }
+  
