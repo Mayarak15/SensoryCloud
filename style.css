@@ -1,10 +1,17 @@
 *{
     scroll-behavior: smooth;
+
     margin:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background-color: #012f31;
+}
+#divheader{
+    position: sticky;
+     width: 100%;
+      top: 0px;
+       height: 105px;
 }
 header{
     padding: 5px;
@@ -55,11 +62,29 @@ header{
     overflow-y: scroll;
   }
   #anunciosprincipal{
-    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-top: 20px;
+    background-color: #002425;
   }
+  *::-webkit-scrollbar-track {
+    background-color: #00191a;
+}
+*::-webkit-scrollbar {
+   
+    background: #409152;
+}
+*::-webkit-scrollbar-thumb {
+    background: #36868a;
+    border-radius: 20px;
+}
   #anunciosprincipal img{
-    width: 300px;
+   height: 200px;
   }
+ 
   .animals{
     right: 2%;
     text-align: center;
@@ -117,8 +142,8 @@ nav{
     animation: .5s;
 }
 #Cardazul:hover{
-    width: 155px;
-    height: 205px;
+    transform: scale(1.1, 1.1);
+
     box-shadow: 2px 2px 10px #36868a;
     cursor: pointer;
 }
@@ -127,8 +152,7 @@ nav{
     border: 3px solid #ffd3ac;
 }
 #Cardlaranja:hover{
-    width: 155px;
-    height: 205px;
+    transform: scale(1.1, 1.1);
     box-shadow: 2px 2px 10px #ef913e;
     cursor: pointer;
 }
@@ -137,8 +161,7 @@ nav{
     border: 3px solid #fab3a8;
 }
 #Cardvermelho:hover{
-    width: 155px;
-    height: 205px;
+    transform: scale(1.1, 1.1);
     box-shadow: 2px 2px 10px #fc3d21;
     cursor: pointer;
 }
@@ -148,8 +171,7 @@ nav{
     border: 3px solid #ecff9c;
 }
 #Cardverde:hover{
-    width: 155px;
-    height: 205px;
+    transform: scale(1.1, 1.1);
     box-shadow: 2px 2px 10px #aad400;
     cursor: pointer;
 }
