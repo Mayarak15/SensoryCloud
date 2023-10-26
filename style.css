@@ -211,6 +211,18 @@ nav{
      align-items: center;
      justify-content:center;
 }
+#btnsaibamaisnoticias0{
+    background-color: #ef913e; 
+    border: 2px solid #f1dbc6;
+    color: white;
+    text-decoration: none;
+     border-radius: 20px; 
+     padding: 10px;
+     transition: .5s;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+}
 .divnoticiaprincipal{
     width: 100%; 
     display: flex; 
@@ -226,8 +238,42 @@ nav{
     gap: 5px;
     width: 100%;
 }
-#btnsaibamaisnoticias:hover, .btnslogin:hover{
+#btnsaibamaisnoticias:hover, .btnslogin:hover, #btnsaibamaisnoticias0:hover{
     background-color: #fc3d21;
+    cursor: pointer;
+}
+.paragrafossaibamais{
+    color: white;
+    font-size: 18px;
+}
+.h2saibamais{
+    color: white;
+    font-size: 25px;
+    border-left: 10px solid #36868a;
+    padding: 5px;
+    width: 100%;
+    text-align: start;
+}
+#div01saibamais{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+#ladoesquerdoheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.selecionartemaIdioma{
+   background-color: #36868a;
+   border: none;
+   border-radius: 5px;
+   color: white;
+}
+.selecionartemaIdioma:hover{
     cursor: pointer;
 }
 #DivLinkMenuEscondio{
