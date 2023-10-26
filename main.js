@@ -36,14 +36,3 @@ function MenuHove() {
 
 
   
-  function contatosblack() {
-    
-    contatosdiv = document.querySelector("#divContatos");
-    contatosdiv.style.background = "#86969a";
-
-    setTimeout(
-        function (){
-            contatosdiv.style.background = "transparent";
-        }, 2000)
-   
-  }

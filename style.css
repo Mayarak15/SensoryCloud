@@ -315,4 +315,48 @@ nav{
   .iconsLogin:hover{
     cursor: pointer;
   }
-  
+  #corposobreempresa{
+    width: 40%;
+  }
+  .ladodireitoctt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .ladodireitoctt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  #divprincipaldireito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid #36868a;
+    padding: 20px;
+  }
+  .iconspagctt{
+    width: 30px;
+  }
+  .inputpagctt{
+    border-radius: 20px;
+    border: none;
+    background-color: #36868a;
+    color: white;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    width: 250px;
+    height: 25px;
+  }
+  .inputpagctt::placeholder{
+    color: white;
+  }
+  #h1entreemcontato{
+    color: white;
+    text-align: center;
+  }
