@@ -364,10 +364,15 @@ nav{
   border-bottom-color: #36868a;
 }
 .inputpagctt:focus{
-  height: 30px;
+  height: 20px;
   outline: none;
 }
-  #h1entreemcontato{
+#h1entreemcontato{
     color: white;
     text-align: center;
   }
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
