@@ -71,14 +71,14 @@ header{
     margin-top: 20px;
     background-color: #002425;
   }
-  *::-webkit-scrollbar-track {
+  #anunciosprincipal::-webkit-scrollbar-track {
     background-color: #00191a;
 }
-*::-webkit-scrollbar {
+#anunciosprincipal::-webkit-scrollbar {
    
     background: #409152;
 }
-*::-webkit-scrollbar-thumb {
+#anunciosprincipal::-webkit-scrollbar-thumb {
     background: #36868a;
     border-radius: 20px;
 }
