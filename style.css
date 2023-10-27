@@ -340,22 +340,29 @@ nav{
     border: 2px solid #36868a;
     padding: 20px;
   }
+  #divprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
   .iconspagctt{
     width: 30px;
   }
-  .inputpagctt{
-    border-radius: 20px;
+  .inputpagctt {
     border: none;
-    background-color: #36868a;
+    background-color: transparent;
     color: white;
     padding: 5px;
     border-bottom: 2px solid white;
     width: 250px;
-    height: 25px;
-  }
-  .inputpagctt::placeholder{
-    color: white;
-  }
+    height: 0;
+}
+.input.inputpagctt:hover {
+  cursor: pointer;
+  border-bottom-color: #36868a;
+}
   #h1entreemcontato{
     color: white;
     text-align: center;
