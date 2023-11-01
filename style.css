@@ -71,14 +71,14 @@ header{
     margin-top: 20px;
     background-color: #002425;
   }
-  #anunciosprincipal::-webkit-scrollbar-track {
+  *::-webkit-scrollbar-track {
     background-color: #00191a;
 }
-#anunciosprincipal::-webkit-scrollbar {
+*::-webkit-scrollbar {
    
     background: #409152;
 }
-#anunciosprincipal::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background: #36868a;
     border-radius: 20px;
 }
@@ -377,4 +377,45 @@ label {
     flex-direction: column;
     align-items: flex-start;
     color: white;
+}
+#divAvaliações{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    background-color: #002425
+}
+.cardsAvaliacoes{
+  background-color: white;
+  width: 220px;
+  height: 270px;
+  border-radius: 20px;
+  border-top: 8px solid #36868a;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  gap: 10px;
+}
+.cardsAvaliacoes p{
+  font-size: 13.5px;
+  text-align: justify;
+}
+.org_cardAvali{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.perfil_avali{
+  width: 60px;
+
+}
+.usu_avali{
+  width: 40px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
 }
