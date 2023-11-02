@@ -378,19 +378,15 @@ label {
     align-items: flex-start;
     color: white;
 }
-#divAvaliações{
+#org_Avali{
     display: flex;
     align-items: center;
     padding: 20px;
     gap: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    margin-bottom: 20px;
-    background-color: #002425
 }
 .cardsAvaliacoes{
   background-color: white;
-  width: 220px;
+  width: 240px;
   height: 270px;
   border-radius: 20px;
   border-top: 8px solid #36868a;
@@ -412,10 +408,18 @@ label {
 }
 .perfil_avali{
   width: 60px;
-
 }
 .usu_avali{
   width: 40px;
   border-radius: 50%;
   background-color: #c4c4c4;
+}
+#divAvali{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ overflow-x: scroll;
+ background-color: #002425;
+ padding: 10px;
 }
