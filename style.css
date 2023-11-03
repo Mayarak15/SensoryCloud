@@ -421,5 +421,6 @@ label {
   gap: 10px;
  overflow-x: scroll;
  background-color: #002425;
- padding: 10px;
+ padding: 20px;
+ margin-bottom: 20px;
 }
